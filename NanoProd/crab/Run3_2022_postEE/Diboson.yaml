@@ -4,6 +4,49 @@ config:
     era: Run3_2022_postEE
     storeFailed: True
 
-WW: /WW_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v3/MINIAODSIM
-WZ: /WZ_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v3/MINIAODSIM
-ZZ: /ZZ_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v3/MINIAODSIM
+WW: 
+  inputDataset: /WW_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v3/MINIAODSIM
+  ignoreFiles: 
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/b5da729d-7405-44a0-814a-7ca1f8f93ce4.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/909b9e1a-b355-46e2-93b8-a7f4fb18e759.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/10cee44d-62e2-4eb1-aff7-36d5e47a1732.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/57f6929b-5ec3-4786-aa15-d99dfa3b0780.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/e7b9826f-325b-47bb-a859-b199ce6d3843.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/8ecc4507-edb9-4b79-b776-a64a6a6ef014.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/a787e37b-bdc9-4d24-8c84-273dad364275.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/ccd94597-18ee-4a97-bc98-cb0c650ec3ad.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/ffdbf02c-f36d-41a9-b7ae-8ece25079c71.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/ce44dc4e-b19f-4e5b-a150-7e138b87b2e2.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/45814032-798c-465b-a850-13c91a9ed975.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/afec297f-395b-4927-87bd-5713265b7178.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/33e7bb8d-ced7-475a-856f-f5ee7a2a1f3a.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/5d2a8933-43f1-4bbb-bb73-3696b736c6e5.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/4671fb9f-8c3d-4ea1-84b1-fc5a975d8fa5.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/27b52d0c-c86e-4b05-bf06-b4696f917b6a.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/90d90066-85cf-49b3-9d7d-69b959904ab4.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/6e8ea7fc-2e17-4c7c-bf2b-ff5e1d2b4312.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/1d9aab5c-c827-4729-bdaf-6cf0a3dd83c8.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/f13ffdb3-50ae-46a6-a192-890532f940ac.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/41d34f92-acf5-4831-aa58-4d3fe8b09f01.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/acc6cd9c-7bd0-47f5-bc7e-6f460e197615.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/863f3594-e14c-41d7-9e76-be0d1edd2ed0.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/60df411e-fb97-47fb-bee0-a64bdec6955e.root
+WZ: 
+  inputDataset: /WZ_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v3/MINIAODSIM
+  ignoreFiles: 
+  - /store/mc/Run3Summer22EEMiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/d8bfb884-5b35-4d8a-98af-6bdb1016fa00.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/e6a2d984-ecb0-4b87-b962-cf99ea913b69.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/fa056456-c767-4fb1-a93f-dac4dd32f0b7.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/ad177dbc-9b4e-4bf7-8906-f882f7c1a9ea.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/1e4216cd-9dd5-4729-a93d-8a9263201f10.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/8290872c-c9a2-4db5-a771-bf82b3ba6f90.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/0cd2a212-0057-4c50-b260-dd831aaabb69.root
+  - /store/mc/Run3Summer22EEMiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/47ec3284-460b-4027-af21-0313a0579975.root
+
+
+
+ZZ: 
+  inputDataset: /ZZ_TuneCP5_13p6TeV_pythia8/Run3Summer22EEMiniAODv3-124X_mcRun3_2022_realistic_postEE_v1-v3/MINIAODSIM
+  ignoreFiles:
+  - /store/mc/Run3Summer22EEMiniAODv3/ZZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/585e890d-3d87-40b5-aed0-b011b6b057aa.root
+  - /store/mc/Run3Summer22EEMiniAODv3/ZZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_postEE_v1-v3/2820000/25333057-1fb8-477d-8340-256e8ed4633a.root
