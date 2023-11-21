@@ -1,7 +1,7 @@
 config:
   params:
     sampleType: data
-    era: Run3_2022_postEE
+    era: Run3_2022
   #lumiMask: /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions18/13TeV/Legacy_2018/Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt
 
 EGamma_Run2022C: /EGamma/Run2022C-27Jun2023-v1/MINIAOD
@@ -12,7 +12,11 @@ Tau_Run2022C: /Tau/Run2022C-27Jun2023-v2/MINIAOD
 Tau_Run2022D: /Tau/Run2022D-27Jun2023-v2/MINIAOD
 Tau_Run2022E: /Tau/Run2022E-27Jun2023-v1/MINIAOD
 
-Muon_Run2022C: /Muon/Run2022C-27Jun2023-v1/MINIAOD
+Muon_Run2022C: 
+  inputDataset: /Muon/Run2022C-27Jun2023-v1/MINIAOD
+  ignoreFiles:
+  - /store/data/Run2022C/Muon/MINIAOD/27Jun2023-v1/2820000/99e8b6d9-a21b-4a2b-8255-10db1ac583bc.root
+  - /store/data/Run2022C/Muon/MINIAOD/27Jun2023-v1/2820000/cc422c1e-a7e5-4ff1-8534-fe63c97e44dc.root
 Muon_Run2022D: /Muon/Run2022D-27Jun2023-v2/MINIAOD
 Muon_Run2022E: /Muon/Run2022E-27Jun2023-v1/MINIAOD
 

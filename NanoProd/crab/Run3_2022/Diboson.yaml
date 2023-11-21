@@ -4,6 +4,19 @@ config:
     era: Run3_2022
     storeFailed: True
 
-WW: /WW_TuneCP5_13p6TeV_pythia8/Run3Summer22MiniAODv3-124X_mcRun3_2022_realistic_v12-v2/MINIAODSIM
-WZ: /WZ_TuneCP5_13p6TeV_pythia8/Run3Summer22MiniAODv3-124X_mcRun3_2022_realistic_v12-v2/MINIAODSIM
+WW:
+  inputDataset: /WW_TuneCP5_13p6TeV_pythia8/Run3Summer22MiniAODv3-124X_mcRun3_2022_realistic_v12-v2/MINIAODSIM
+  ignoreFiles:
+  - /store/mc/Run3Summer22MiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_v12-v2/2820000/a97f1c7b-a9e6-4b91-aa89-a57fc1d29074.root
+  - /store/mc/Run3Summer22MiniAODv3/WW_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_v12-v2/2820000/1f0c1696-2ebd-424a-b7bf-d4fc79662860.root
+WZ: 
+  inputDataset: /WZ_TuneCP5_13p6TeV_pythia8/Run3Summer22MiniAODv3-124X_mcRun3_2022_realistic_v12-v2/MINIAODSIM
+  ignoreFiles:
+  - /store/mc/Run3Summer22MiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_v12-v2/2820000/9216cc4b-cfa1-425c-82a6-854d6c417811.root
+  - /store/mc/Run3Summer22MiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_v12-v2/2820000/a0bba9e8-843c-431e-8e9b-f8565ede5b48.root
+  - /store/mc/Run3Summer22MiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_v12-v2/2820000/0e7212c2-8891-46b6-897f-5303097b2286.root
+  - /store/mc/Run3Summer22MiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_v12-v2/2820000/fe4b4c1f-7228-42ae-9042-848b5d04b800.root
+  - /store/mc/Run3Summer22MiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_v12-v2/2820000/2537679a-903e-4b09-8152-8fe995342023.root
+  - /store/mc/Run3Summer22MiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_v12-v2/2820000/a8cb14ae-126e-46bf-ab9c-7b41464cc2db.root
+  - /store/mc/Run3Summer22MiniAODv3/WZ_TuneCP5_13p6TeV_pythia8/MINIAODSIM/124X_mcRun3_2022_realistic_v12-v2/2820000/7b3331f0-24cd-45c4-a41e-2d1aa05aaf6b.root
 ZZ: /ZZ_TuneCP5_13p6TeV_pythia8/Run3Summer22MiniAODv3-124X_mcRun3_2022_realistic_v12-v2/MINIAODSIM
